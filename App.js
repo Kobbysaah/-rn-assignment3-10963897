@@ -61,3 +61,60 @@ const styles = StyleSheet.create({
     backgroundColor: '#FBF9F7',
   },
 });
+export default function App() {
+ 
+  return (
+    <SafeAreaView style={styles}>
+    <ScrollView>
+    <View style={styles.Group1}>
+      <View style={styles}><Text style={styles.Text}>Hello, Devs</Text>
+      <Text style={styles}>14 tasks today</Text></View>
+      <View style={styles}><Image source={require('./images/Profile.png')} style={styles.image}/></View>
+    </View>
+
+     <View style={styles.Group1}>
+      <View style={styles}><Image source={require('./images/Vector.png')} style={styles.image}/></View>
+      <View style={styles}><Text style={styles.text}>Search</Text></View>
+      <View style={styles}><Image source={require('./images/setting.png')} style={styles.image}/></View>
+    </View>
+
+   <View style={styles}>
+    <View style={styles.Group1}><Text style={styles.text1}>Categoriess</Text></View>
+    <View style={styles.container}>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item}><Text style={styles}>14 tasks today</Text></View>
+   </View>
+    </View>
+
+      <View style={styles}>
+      <View style={styles.Group1}><Text style={styles.text1}>Ongoing Task</Text></View>
+       <View style={styles.container2}>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+      <View style={styles.item2}><Text style={styles}>14 tasks today</Text></View>
+    </View></View>
+  
+
+    </ScrollView>
+  </SafeAreaView>
+  );
+}
